@@ -1,0 +1,42 @@
+header {
+    
+    background-image: linear-gradient(to bottom, rgba(208, 12, 5, 0.6), rgba(236, 84, 54, 0.6)), url('./images/bg-pattern-intro-mobile.svg');
+    background-size: cover;
+    border-bottom-left-radius: 5rem;
+
+    @media screen(min-width: 768px) {
+      background-image: linear-gradient(to bottom, rgba(208, 12, 5, 0.6), rgba(236, 84, 54, 0.6)), url('./images/bg-pattern-intro-desktop.svg');
+      background-size: cover;
+      border-bottom-left-radius: 5rem;
+    }
+}
+
+ /* header button{  
+  border: 2px solid white;
+  border-radius: 15px;
+  opacity: 1;
+ } */
+
+ .infra{
+  background-image: url('./images/bg-pattern-circles.svg');
+  background-size: cover;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  background-color: hsl(207, 13%, 34%);    
+} 
+.infra picture{
+  margin-bottom: -12rem;
+}
+ .infra picture img{
+  
+  transform: translateY(-50%);  
+  width: 375px;
+  
+}
+.future{
+  padding-bottom: 9rem;
+}
+footer{
+  background-color:hsl(240, 10%, 16%);
+  border-top-right-radius: 5rem;
+}

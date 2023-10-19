@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">  
+  <title>[Blogr3]</title>
+  
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+         
+    <header class="pb-8">
+    <nav class="flex justify-between py-10 px-6 pb-3">
+
+      <div class="w-100 sm:w-80%">
+        <img style="max-width: 80%;" src="./images/logo.svg" alt="Logo">
+      </div>
+    
+      <div class="hamburguer sm:hidden">        
+        <a id="hamburguerico" class="block cursor-pointer p-2 md:hidden">
+          <img src="./images/icon-hamburger.svg" alt="menu-list">
+        </a>
+
+        <div class="menumobile hidden sm:flex flex-row">
+                         
+          <ul class="md:items-center space-x-8">    
+            <li id="product" class="">  
+              <div class="cursor-pointer flex flex-wrap items-center">
+              <a href="#" class="product font-medium text text-gray-700 hover:text-gray-900max-width: 80%;">Product</a>             
+                <picture class="py-1 px-1">
+                  <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+                  <img src="./images/icon-arrow-light.svg" alt="Arrow icon">
+                </picture>                  
+              </div>
+              <ul class="text-white submenu-product hidden absolute left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg transition-all duration ease-in-out">
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Overview</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Pricing</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Marketplace</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Features</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Integrations</a></li>
+              </ul>
+
+            </li>
+
+            <li class="">
+              <div class="cursor-pointer flex flex-wrap items-center">
+              <a href="#" class="company font-medium text-gray-700 hover:text-gray-900">Company</a>        
+                <picture class="py-1 px-1">                   
+                  <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+                  <img src="./images/icon-arrow-light.svg" alt="Arrow icon">
+                </picture>
+              </div>
+                <ul class="submenu-company hidden absolute left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg transition-all duration ease-in-out">
+                  <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
+                  <li><a href="#" class="text-gray-700 hover:text-gray-900">Team</a></li>
+                  <li><a href="#" class="text-gray-700 hover:text-gray-900">Blog</a></li>
+                  <li><a href="#" class="text-gray-700 hover:text-gray-900">Careers</a></li>
+                </ul>
+  
+
+            </li>
+            
+            <li class="">
+              <div class="cursor-pointer flex flex-wrap items-center">
+              <a href="#" class="connect font-medium text-gray-700 hover:text-gray-900">Connect</a>             
+                <picture class="py-1 px-1">
+                  <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+                  <img src="./images/icon-arrow-light.svg" alt="Arrow icon">
+                </picture>
+              </div>  
+              <ul class="submenu-connect hidden absolute left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg transition-all duration ease-in-out">
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Newsletter</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">LinkedIn</a></li>
+              </ul>
+
+            </li>
+          </ul>
+
+          <div class="flex flex-col justify-center items-center space-x-4 pt-1 pb-8">
+            <button class=" text-white py-2 px-6">Login</button>
+            <button class=" text-white py-2 px-6 ">Sign Up</button>
+          </div>
+
+        </div>  
+        
+      </div>
+     
+    </nav>
+   
+
+    <div class="title text-center items-center pt-20 pb-8 px-3">
+      <h1 style="font-family: 'Overpass'; font-weight:400;" class="text-white text-4xl text-center px-3">
+        A modern publishing platform
+      </h1>
+      <p style="font-family: 'Overpass'; font-weight: 300;" class="text-white p-4 m-2">Grow your audience and build your online brand</p>
+    </div>
+        
+    <div class="flex justify-center items-center space-x-4 pt-1 pb-8">
+      <button class="py-3 px-6 rounded-lg text-center bg-white ">Login</button>
+      <button class="second text-white py-2 px-6 rounded-lg">Sign Up</button>
+    </div>
+  
+  </header>
+
+    <section class="future flex-col jutify-center text-center py-20">
+  
+     <div class="text-center">
+        <h1 class="text-xl font-bold mb-6"> Designed for the future </h1>        
+     </div>
+
+     <picture class="imagefuture">        
+      <source src="./images/illustration-editor-desktop.svg" media="(min-width: 670px)">
+      <img src="./images/illustration-editor-mobile.svg" alt="editor on works image">
+     </picture>
+
+      <div class="text-center py-6 px-8"> 
+          <div class="mt-10 py-6 px-8">    
+          <h2 style="font-family: 'Ubuntu'; font-weight:700;" class="text-xl font-bold"> Introducing an extensible editor </h2>
+          <p style="font-family: 'Ubuntu'; font-weight:400;" class="mt-4">
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.
+          </p>
+          </div>
+
+          <div class="mt-10 py-6 px-8">
+            <h2 style="font-family: 'Ubuntu'; font-weight:700;" class="text-lg font-bold py-10"> Robust content management </h2>
+            <p style="font-family: 'Ubuntu'; font-weight:400;" class="">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>  
+      </div>
+
+     </section>
+  
+    <section class="infra flex flex-col justify-center items-center py-20">
+      <picture class="">
+        <img class="" src="./images/illustration-phones.svg" alt=" smartphone image advertising">
+      </picture>
+
+      <div class="py-7 px-8">
+      <h1 style="font-family: 'Ubuntu'; font-weight:700;" class="text-xl text-center font-bold text-white"> State of the Art Infrastructure </h1>
+      <p style="font-family: 'Ubuntu'; font-weight:400;" class="text-center text-white mt-4">
+      With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+      This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      </p>
+      </div>
+    </section>
+
+    <section class="freeopen flex flex-col justify-center items-center py-20">
+
+      <picture>
+        <source media="(min-width:768px)" src="./images/illustration-laptop-desktop.svg">
+        <img class="" src="./images/illustration-laptop-mobile.svg" alt="image of mobile conect to this service">
+      </picture>
+  
+
+    <div class="py-4">
+      <h1 style="font-family: 'Ubuntu'; font-weight:600;" class="text-lg text-center font-bold py-4">Free, open, simple</h1>
+      <p style="font-family: 'Ubuntu'; font-weight:300;" class="text-center mt-4 text-gray-900 px-4">
+      Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+      features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+      and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+      </p>
+    </div>
+
+    <div class="py-4">
+      <h1 style="font-family: 'Ubuntu'; font-weight:600;" class="text-lg text-center font-bold py-7"> Powerful tooling </h1>
+      <p style="font-family: 'Ubuntu'; font-weight:300;" class="text-center mt-4 text-gray-900 px-4">
+      Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+      capable of producing even the most complicated sites.
+      </p>
+    </div>
+     
+ 
+    </section>
+
+<footer class="grid grid-cols-1 text-center ">
+  <div class="flex justify-center pt-20">
+    <img class="" src="./images/logo.svg" alt="logo image illustration">
+  </div>
+    
+
+  <div  style="font-family: 'Overpass'; font-weight:300; line-height: 1.6;" class="text-white text-xl pt-20 py-4">
+    <h3 class="font-bold py-2"><a href="#"> Product </a></h3>
+    <ul class="py-4" role="navigation">
+    <li><a href="#"> Overview </a></li>
+    <li><a href="#"> Pricing </a></li>
+    <li><a href="#"> Marketplace </a></li>
+    <li><a href="#"> Features </a></li>
+    <li><a href="#"> Integrations </a></li> 
+    </ul>
+  </div>
+
+  <div style="font-family: 'Overpass'; font-weight:300; line-height: 1.6;" class="text-white text-xl py-4">
+    <h3 class="font-bold py-2"><a href="#"> Company </a></h3>
+    <ul class="py-4" role="navigation">
+    <li><a href="#"> About </a></li>
+    <li><a href="#"> Team </a></li>
+    <li><a href="#"> Blog </a></li>
+    <li><a href="#"> Careers </a></li>
+    </ul>
+  </div>
+
+  <div style="font-family: 'Overpass'; font-weight:300;line-height: 1.6;" class="text-white text-xl py-4">
+   <h3 class="font-bold py-2"><a href="#"> Connect </a></h3>
+    <ul class=" py-4" role="navigation"> 
+    <li><a href="#"> Contact </a></li>
+    <li><a href="#"> Newsletter </a></li>
+    <li><a href="#"> LinkedIn </a></li>
+    </ul>  
+  </div> 
+  <div class="py-20 text-white" style="font-family: 'Overpass'; font-weight:300;line-height: 1.6;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">edsonromeu</a>.
+  </div> 
+
+  </footer>
+
+ </main>
+</body>
+</html>
