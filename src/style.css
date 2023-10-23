@@ -18,7 +18,9 @@ header {
  } */
 
  .infra{
+  background-position-y: -5rem;
   background-image: url('./images/bg-pattern-circles.svg');
+  background-repeat: no-repeat;
   background-size: cover;
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;

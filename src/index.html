@@ -4,30 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
   <title>[Blogr3]</title>
-  
   <link rel="stylesheet" href="./output.css">
   <link rel="stylesheet" href="./style.css">
+  
 </head>
 <body>
   <main>
          
     <header class="pb-8">
-    <nav class="flex justify-between py-10 px-6 pb-3">
+    <nav class=" flex justify-between py-10 px-6 pb-3">
 
       <div class="w-100 sm:w-80%">
         <img style="max-width: 80%;" src="./images/logo.svg" alt="Logo">
       </div>
     
-      <div class="hamburguer sm:hidden">        
+      <div class="hamburguer">        
         <a id="hamburguerico" class="block cursor-pointer p-2 md:hidden">
           <img src="./images/icon-hamburger.svg" alt="menu-list">
         </a>
 
-        <div class="menumobile hidden sm:flex flex-row">
+        <div class="menumobile hidden sm:flex flex-row ">
                          
-          <ul class="md:items-center space-x-8">    
+          <ul class="hidden md:items-center space-x-8">    
             <li id="product" class="">  
               <div class="cursor-pointer flex flex-wrap items-center">
               <a href="#" class="product font-medium text text-gray-700 hover:text-gray-900max-width: 80%;">Product</a>             
@@ -81,7 +81,7 @@
             </li>
           </ul>
 
-          <div class="flex flex-col justify-center items-center space-x-4 pt-1 pb-8">
+          <div class="sm:hidden flex flex-col justify-center items-center space-x-4 pt-1 pb-8">
             <button class=" text-white py-2 px-6">Login</button>
             <button class=" text-white py-2 px-6 ">Sign Up</button>
           </div>
