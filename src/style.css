@@ -17,16 +17,6 @@ header {
   opacity: 1;
  } 
 
- .infra{
-  background-position-y: -5rem;
-  background-image: url('./images/bg-pattern-circles.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-right-radius: 5rem;
-  border-bottom-left-radius: 5rem;
-  background-color: hsl(207, 13%, 34%);    
-  
-} 
 
 .infra picture{ 
   
@@ -47,11 +37,6 @@ header {
   width: 375px;
    
 }
-.hamburguer{
-  
-  
-}
-
 .menumobile{ 
   position:absolute;   
   width: 90vw;
@@ -62,7 +47,6 @@ header {
   border-radius: 0.8rem;
   background-color: rgb(206, 74, 3);
 }
-
 footer{
   background-color:hsl(240, 10%, 16%);
   border-top-right-radius: 5rem;

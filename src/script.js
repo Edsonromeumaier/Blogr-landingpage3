@@ -1,5 +1,5 @@
 
-document.getElementById('hamburguerico').addEventListener('click', () =>{
+document.getElementById('hamburguerIco').addEventListener('click', () =>{
   document.querySelector('.menumobile').classList.toggle('hidden');
 
 });
