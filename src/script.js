@@ -1,43 +1,44 @@
-const product = document.querySelector('.product');
-const company = document.querySelector('.company');
-const connect = document.querySelector('.connect');
-const submenuProduct = document.querySelector('.submenu-product');
-const submenuCompany = document.querySelector('.submenu-company');
-const submenuConnect = document.querySelector('.submenu-connect');
-const hamburguerIco = document.getElementById('hamburguerico');
-const menuDialog = document.querySelector('.menumobile');
-const btnClose = document.querySelector('.btnclose');
 
-btnClose.addEventListener("click", () => {
-  product.classList.toggle('flex')
+document.getElementById('hamburguerico').addEventListener('click', () =>{
+  document.querySelector('.menumobile').classList.toggle('hidden');
+
 });
 
-hamburguerIco.addEventListener("click", () => {
-  
+document.querySelector('.listProduct').addEventListener('mouseenter', () => {
+  document.querySelector('.submenuProduct').classList.toggle('hidden');
+  document.querySelector('.arrowIco').style.transform = 'rotate(90deg)';
+   
+});
+document.querySelector('.listProduct').addEventListener('mouseleave', () =>{
+  document.querySelector('.submenuProduct').classList.add('hidden');
+  document.querySelector('.arrowIco').style.transform = 'rotate(0deg)';
 });
 
 
+document.querySelector('.listCompany').addEventListener('mouseenter', () => {
+  document.querySelector('.submenuCompany').classList.toggle('hidden');  
+  document.querySelector('.arrowIco1').style.transform = 'rotate(90deg)';
+});
+document.querySelector('.listCompany').addEventListener('mouseleave', () => {
+document.querySelector('.submenuCompany').classList.add('hidden');
+document.querySelector('.arrowIco1').style.transform = 'rotate(0deg)';
+});  
 
-product.addEventListener('mouseenter', () => {
-  submenuProduct.classList.remove('hidden');
+
+document.querySelector('.listConnect').addEventListener('mouseenter', () =>{
+  document.querySelector('.submenuConnect').classList.toggle('hidden');
+  document.querySelector('.arrowIco2').style.transform = 'rotate(90deg)';
+});
+document.querySelector('.listConnect').addEventListener('mouseleave', () =>{
+  document.querySelector('.submenuConnect').classList.add('hidden');
+  document.querySelector('.arrowIco2').style.transform = 'rotate(0deg)';
 });
 
-product.addEventListener('mouseleave', () => {
-  submenuProduct.classList.add('hidden');
-});
+window.addEventListener('scroll', function() {
+  const sectionTop = infra.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
 
-company.addEventListener('mouseenter', () => {
-  submenuCompany.classList.remove('hidden');
-});
-
-company.addEventListener('mouseleave', () => {
-  submenuCompany.classList.add('hidden');
-});
-
-connect.addEventListener('mouseenter', () => {
-  submenuConnect.classList.remove('hidden');
-});
-
-connect.addEventListener('mouseleave', () => {
-  submenuConnect.classList.add('hidden');
+  if (sectionTop < windowHeight) {
+    this.document.getElementById('hamburguerico').classList.add('animated');
+  }
 });

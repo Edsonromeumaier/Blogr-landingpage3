@@ -21,12 +21,10 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 Developed this landing page with the help of [Tailwind](https://tailwindcss.com/). I still haven't mastered using tool so there are "gambiarras" in the code.
 
 ### how to see
-If you want tio see locally just clone this repo
+If you want to see locally just clone this repo.
 
-You should do changes about the head of the HTML including a this script: **"<script src="https://cdn.tailwindcss.com"></script>"** for able to render [Tailwind](https://tailwindcss.com/) can be  t:
+You should do changes about the head of the HTML including a this script: **"<script src="https://cdn.tailwindcss.com"></script>"** for able to render [Tailwind](https://tailwindcss.com/) can be
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
 
 ### Screenshot
 
