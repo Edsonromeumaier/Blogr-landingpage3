@@ -21,8 +21,10 @@
       </div>
 
       <div class="hamburguer">
-       <a id="hamburguerIco" class="block cursor-pointer p-2 md:hidden">
+       <a id="hamburguerIco" class="block cursor-pointer transition ease-in-out p-2 md:hidden">
+        <span id="iconWrapper">
         <img src="./images/icon-hamburger.svg" alt="menu-list">
+        </span>
        </a>
        <ul class="menumobile flex flex-col items-center pt-2 pb-2 hidden">
 
@@ -74,7 +76,8 @@
             </span>  
             </li>
 
-            <hr>
+          <hr/>
+
             <li class=" text-white py-2 px-6">Login</li>
             <li class=" text-white py-2 px-6 ">Sign Up</li>
        </ul>

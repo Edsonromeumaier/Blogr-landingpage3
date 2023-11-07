@@ -1,7 +1,16 @@
 
 document.getElementById('hamburguerIco').addEventListener('click', () =>{
-  document.querySelector('.menumobile').classList.toggle('hidden');
+  const menuMobile = document.querySelector('.menumobile');
+  const menuIcon = document.getElementById('iconWrapper');
 
+  
+  if(menuMobile.classList.contains('hidden')){
+    menuMobile.classList.remove('hidden');
+    menuIcon.innerHTML = '<img src="./images/icon-close.svg" alt="close-menu">';
+} else {
+  menuMobile.classList.toggle('hidden');
+  menuIcon.innerHTML = '<img src="./images/icon-hamburger.svg" alt="menu-list">'  
+}
 });
 
 document.querySelector('.listProduct').addEventListener('mouseenter', () => {
