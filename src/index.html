@@ -29,13 +29,13 @@
        <ul class="menumobile flex flex-col items-center pt-2 pb-2 hidden">
 
            <li class="listProduct cursor-pointer flex flex-wrap items-center py2">
-    <a href="#" class="font-medium text text-gray-700 hover:text-gray-900 max-w-[80%]">Product</a>
+    <a href="#" class="font-medium text text-gray-900 max-w-[80%]">Product</a>
     <picture class="py-1 px-1">
       <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
       <img class="arrowIco transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
     </picture>
-    <span class="block">
-      <ul class="submenuProduct text-white left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg hidden">
+    <span class="block" style="width: 100%;">
+      <ul class="submenuProduct flex flex-col text-white left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg hidden">
         <li><a href="#" class="text-gray-700 hover:text-gray-900">Overview</a></li>
         <li><a href="#" class="text-gray-700 hover:text-gray-900">Pricing</a></li>
         <li><a href="#" class="text-gray-700 hover:text-gray-900">Marketplace</a></li>
@@ -51,7 +51,7 @@
       <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
       <img class="arrowIco1 transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
     </picture>
-    <span class="block">
+    <span class="block" style="width: 100%;">
       <ul class="submenuCompany left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg transition-all duration ease-in-out hidden">
         <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
         <li><a href="#" class="text-gray-700 hover:text-gray-900">Team</a></li>
@@ -67,7 +67,7 @@
                   <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
                   <img class="arrowIco2 transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
                 </picture>              
-              <span class="block">
+                <span class="block" style="width: 100%;">
               <ul class="submenuConnect left-0 mt-2 space-y-2 bg-white shadow-md py-2 px-4 rounded-lg transition-all duration ease-in-out hidden">
                 <li><a href="#" class="text-gray-700 hover:text-gray-900">Contact</a></li>
                 <li><a href="#" class="text-gray-700 hover:text-gray-900">Newsletter</a></li>
@@ -78,8 +78,8 @@
 
           <hr/>
 
-            <li class=" text-white py-2 px-6">Login</li>
-            <li class=" text-white py-2 px-6 ">Sign Up</li>
+            <li class="cursor-pointer text-white py-2 px-6"><a class=" transition duration-300 ease-in"> Login </a></li>
+            <li class="cursor-pointer text-white py-2 px-6"><a class="bg-transparent w-16 h-16 rounded-full border-gray-300 transition duration-300 ease-in"> Sign Up </a></li>
        </ul>
 
       </div>     
@@ -94,8 +94,8 @@
     </div>
         
     <div class="flex justify-center items-center space-x-4 pt-1 pb-8">
-      <button class="py-3 px-6 rounded-lg text-center bg-white ">Login</button>
-      <button class="second text-white py-2 px-6 rounded-lg">Sign Up</button>
+      <a class="py-3 px-6 rounded-lg text-center bg-white ">Login</a>
+      <a class="second text-white py-2 px-6 rounded-lg">Sign Up</a>
     </div>
   
   </header>
