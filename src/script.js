@@ -11,7 +11,20 @@ document.getElementById('hamburguerIco').addEventListener('click', () =>{
   menuMobile.classList.toggle('hidden');
   menuIcon.innerHTML = '<img src="./images/icon-hamburger.svg" alt="menu-list">'  
 }
+}); 
+window.addEventListener('resize',() => {
+  const menuMobile = document.querySelector('.menumobile');
+  const menuIcon = document.getElementById('iconWrapper');
+
+  if (window.innerWidth > 768) {
+      menuMobile.classList.remove('hidden');
+      menuIcon.innerHTML = '<img src="./images/icon-hamburger.svg" alt="menu-list">';
+  } else {
+    menuMobile.classList.add('hidden');
+    menuIcon.innerHTML = '<img src="./images/icon-hamburger.svg" alt="menu-list">';
+  }
 });
+
 
 document.querySelector('.listProduct').addEventListener('mouseenter', () => {
   document.querySelector('.submenuProduct').classList.toggle('hidden');

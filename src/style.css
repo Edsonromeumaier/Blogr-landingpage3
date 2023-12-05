@@ -37,7 +37,7 @@ header {
   width: 375px;
    
 }
-.menumobile{ 
+ .menumobile{ 
   position:absolute;   
   width: 90vw;
   height: 45vh;  
@@ -45,8 +45,10 @@ header {
   left: 1.2rem;
   padding: 2rem;
   border-radius: 0.8rem;
-  background-color: rgb(206, 74, 3);
+  background-color:hsl(0, 0, 100%);   
+
 }
+
 footer{
   background-color:hsl(240, 10%, 16%);
   border-top-right-radius: 5rem;
