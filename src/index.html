@@ -26,11 +26,11 @@
         <img src="./images/icon-hamburger.svg" alt="menu-list">
         </span>
        </a>
-       <ul class="menumobile flex flex-col items-center pt-2 pb-2 md:flex flex-row justify-center">
+       <ul class="menumobile absolute flex flex-col items-center pt-2 pb-2 bg-white shadow-md md:absolute bg-transparent">
            <li class="listProduct cursor-pointer flex flex-wrap items-center py-2">
     <a href="#" class="font-medium text text-gray-900 max-w-[80%]">Product</a>
     <picture class="py-1 px-1">
-      <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+      <source srcset="./images/icon-arrow-dark.svg" media="(min-width:768px)">
       <img class="arrowIco transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
     </picture>
     <span class="block" style="width: 100%;">
@@ -47,7 +47,7 @@
             <li class="listCompany cursor-pointer flex flex-wrap items-center py-2">
     <a href="#" class="company font-medium text-gray-700 hover:text-gray-900">Company</a>
     <picture class="py-1 px-1">
-      <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+      <source srcset="./images/icon-arrow-dark.svg" media="(min-width:768px)">
       <img class="arrowIco1 transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
     </picture>
     <span class="block" style="width: 100%;">
@@ -63,7 +63,7 @@
             <li class="listConnect cursor-pointer flex flex-wrap items-center py-2">
               <a href="#" class="connect font-medium text-gray-700 hover:text-gray-900">Connect</a>             
                 <picture class="py-1 px-1">
-                  <source srcset="./images/icon-arrow-dark.svg" media="(min-width:736px)">
+                  <source srcset="./images/icon-arrow-dark.svg" media="(min-width:768px)">
                   <img class="arrowIco2 transition ease-linear" src="./images/icon-arrow-light.svg" alt="Arrow icon">
                 </picture>              
                 <span class="block" style="width: 100%;">
@@ -99,16 +99,14 @@
   
   </header>
 
-    <section class="future flex-col jutify-center text-center py-20">
-  
-     <div class="text-center">
-        <h1 class="text-xl font-bold mb-6"> Designed for the future </h1>        
-     </div>
+    <section class="future flex flex-col justify-center items-center text-center py-20">
+<h1 class="text-xl font-bold text-center mb-6"> Designed for the future </h1>    
 
      <picture class="imagefuture">        
-      <source src="./images/illustration-editor-desktop.svg" media="(min-width: 670px)">
-      <img src="./images/illustration-editor-mobile.svg" alt="editor on works image">
+      <source srcset="./images/illustration-editor-desktop.svg" media="(min-width: 768px)">
+      <img class="" src="./images/illustration-editor-mobile.svg" alt="editor on works image">
      </picture>
+
 
       <div class="text-center py-6 px-8"> 
           <div class="mt-10 py-6 px-8">    
@@ -132,7 +130,7 @@
 
      </section>
   
-    <section class="infra flex flex-col justify-center items-center py-20">
+    <section class="infra flex flex-col items-center justify-center items-center py-20 ">
       <picture class="">
         <img class="" src="./images/illustration-phones.svg" alt=" smartphone image advertising">
       </picture>

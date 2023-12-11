@@ -37,17 +37,32 @@ header {
   width: 375px;
    
 }
- .menumobile{ 
-  position:absolute;   
+
+ .menumobile {
+
   width: 90vw;
   height: 45vh;  
   top: 6rem;
   left: 1.2rem;
   padding: 2rem;
   border-radius: 0.8rem;
-  background-color:hsl(0, 0, 100%);   
-
+  
+ 
 }
+@media screen and (min-width: 768px) {
+  .menumobile {    
+    flex-direction: row;
+    top: 0;
+    left: 6.8rem;
+  }
+}
+ /*
+@media screen and (min-width: 768px)
+  .imagefuture{
+    position: -1;
+  }
+*/
+
 
 footer{
   background-color:hsl(240, 10%, 16%);
