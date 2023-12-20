@@ -14,7 +14,7 @@
   <main>
          
     <header class="pb-8">
-    <nav class=" flex justify-between py-10 px-6 pb-3">
+    <nav class="flex justify-between py-10 px-6 pb-3">
 
       <div class="sm:w-80% md:w-100%">
         <img style="max-width: 80%;" src="./images/logo.svg" alt="Logo">
@@ -26,7 +26,7 @@
         <img src="./images/icon-hamburger.svg" alt="menu-list">
         </span>
        </a>
-       <ul class="menumobile absolute flex flex-col items-center pt-2 pb-2 bg-white shadow-md md:absolute bg-transparent">
+       <ul class="menumobile absolute flex flex-col items-center gap-0.5 pt-2 pb-2 bg-white shadow-md hidden md:gap-2 absolute bg-transparent">
            <li class="listProduct cursor-pointer flex flex-wrap items-center py-2">
     <a href="#" class="font-medium text text-gray-900 max-w-[80%]">Product</a>
     <picture class="py-1 px-1">
@@ -92,23 +92,24 @@
       <p style="font-family: 'Overpass'; font-weight: 300;" class="text-white p-4 m-2">Grow your audience and build your online brand</p>
     </div>
         
-    <div class="flex justify-center items-center space-x-4 pt-1 pb-8">
-      <a class="py-3 px-6 rounded-lg text-center bg-white ">Login</a>
-      <a class="second text-white py-2 px-6 rounded-lg">Sign Up</a>
+    <div class="headbtns flex justify-center items-center space-x-4 pt-1 pb-8">
+      <a class="firstbtn cursor-pointer text-opacity-100 py-2 hover:bg-lightred-700 focus:outline-none focus:shadow-outline-blue">Start for Free</a>
+      <a class="secondbtn">Learn More</a>
     </div>
   
   </header>
 
     <section class="future flex flex-col justify-center items-center text-center py-20">
-<h1 class="text-xl font-bold text-center mb-6"> Designed for the future </h1>    
 
-     <picture class="imagefuture">        
+    <h1 class="text-xl font-bold text-center mb-4"> Designed for the future </h1>    
+     
+    <div class="md:flex ">
+     <picture class="imagefuture block md:flex w-1/2 ">        
       <source srcset="./images/illustration-editor-desktop.svg" media="(min-width: 768px)">
-      <img class="" src="./images/illustration-editor-mobile.svg" alt="editor on works image">
+      <img src="./images/illustration-editor-mobile.svg" alt="editor on works image">
      </picture>
 
-
-      <div class="text-center py-6 px-8"> 
+      <div class="text-center py-6 px-8 md:flex w-1/2"> 
           <div class="mt-10 py-6 px-8">    
           <h2 style="font-family: 'Ubuntu'; font-weight:700;" class="text-xl font-bold"> Introducing an extensible editor </h2>
           <p style="font-family: 'Ubuntu'; font-weight:400;" class="mt-4">
@@ -127,7 +128,7 @@
             </p>
           </div>  
       </div>
-
+    </div>
      </section>
   
     <section class="infra flex flex-col items-center justify-center items-center py-20 ">
@@ -152,18 +153,18 @@
       </picture>
   
 
-    <div class="py-4">
-      <h1 style="font-family: 'Ubuntu'; font-weight:600;" class="text-lg text-center font-bold py-4">Free, open, simple</h1>
-      <p style="font-family: 'Ubuntu'; font-weight:300;" class="text-center mt-4 text-gray-900 px-4">
+    <div class=" mt-10 py-6 px-8">
+      <h1 style="font-family: 'Ubuntu'; font-weight:700;" class="text-lg text-center font-bold py-4">Free, open, simple</h1>
+      <p style="font-family: 'Ubuntu'; font-weight:400;" class="text-center mt-4 text-gray-900 px-4">
       Blogr is a free and open source application backed by a large community of helpful developers. It supports 
       features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
       and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
       </p>
     </div>
 
-    <div class="py-4">
-      <h1 style="font-family: 'Ubuntu'; font-weight:600;" class="text-lg text-center font-bold py-7"> Powerful tooling </h1>
-      <p style="font-family: 'Ubuntu'; font-weight:300;" class="text-center mt-4 text-gray-900 px-4">
+    <div class="mt-10 py-6 px-8">
+      <h1 style="font-family: 'Ubuntu'; font-weight:700;" class="text-lg text-center font-bold py-7"> Powerful tooling </h1>
+      <p style="font-family: 'Ubuntu'; font-weight:400;" class="text-center mt-4 text-gray-900 px-4">
       Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
       capable of producing even the most complicated sites.
       </p>

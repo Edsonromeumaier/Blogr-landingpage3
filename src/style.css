@@ -1,16 +1,22 @@
+*{
+  margin: 0;
+}
 header {
     
     background-image: linear-gradient(to bottom, rgba(208, 12, 5, 0.6), rgba(236, 84, 54, 0.6)), url('./images/bg-pattern-intro-mobile.svg');
-    background-size: cover;
+    background-size: 300% 300%;
     border-bottom-left-radius: 5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
 
-    @media screen(min-width: 768px) {
-      background-image: linear-gradient(to bottom, rgba(208, 12, 5, 0.6), rgba(236, 84, 54, 0.6)), url('./images/bg-pattern-intro-desktop.svg');
-      background-size: cover;
-      border-bottom-left-radius: 5rem;
-    }
+    @media screen and(min-width: 768px) {
+
+      header{
+      background-image:linear-gradient(to bottom, rgba(208, 12, 5, 0.6), rgba(236, 84, 54, 0.6)), url('./images/bg-pattern-intro-desktop.svg');
+      }
 }
-
+}
   header button{  
   border: 2px solid white;
   border-radius: 15px;
@@ -47,8 +53,11 @@ header {
   padding: 2rem;
   border-radius: 0.8rem;
   
+  padding: 2.5rem;
+    
  
 }
+
 @media screen and (min-width: 768px) {
   .menumobile {    
     flex-direction: row;
@@ -56,14 +65,46 @@ header {
     left: 6.8rem;
   }
 }
- /*
-@media screen and (min-width: 768px)
-  .imagefuture{
-    position: -1;
+  .firstbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .5rem;    
+    width:8rem;
+    height:3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 3rem;
+    color: hsl(13, 100%, 72%);
+    background-color: white;
+    transition: all .22s ease-in-out;
+    
   }
-*/
 
+  .secondbtn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:8rem ;
+      height: 2.7rem;
+      font-family: 'ubuntu', sans-serif ;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.1rem;
+      border: 1.5px solid white;
+      border-radius:3rem;
+      color: white;
+      background-color: transparent; 
+      
+  }
 
+  .imagefuture img{
+    width: 50%;
+    margin: auto;
+    /* scale: 1.3; */
+  }
 footer{
   background-color:hsl(240, 10%, 16%);
   border-top-right-radius: 5rem;
