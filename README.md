@@ -24,7 +24,7 @@ Este projeto é uma solução para a página de destino do Blogr, criada usando 
 + No diretório do projeto, instale as dependências executando o seguinte comando:npm install
 + Após a conclusão da instalação, inicie o servidor de desenvolvimento com o seguinte comando: npm run start
 
-2. Você também pode usar a ferramenta de visualização HTML do GitHub & BitBucket para uma visualização rápida. Basta copiar o conteúdo do arquivo index.html e colá-lo na ferramenta de visualização:[github & BitBucket HTML preview](https://htmlpreview.github.io/)
+2. Você também pode usar a ferramenta de visualização GitHub & BitBucket para uma visualização rápida. Basta copiar o caminho relativo do arquivo index.html e colá-lo na ferramenta de visualização:[github & BitBucket HTML preview](https://htmlpreview.github.io/)
 
 
 ### Links
